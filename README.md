@@ -6,8 +6,6 @@ This repository adapts a 14-experiment machine-learning notebook sequence to the
 
 `data/student_data.csv` contains 395 records and 33 fields, including demographic, family, school, study-habit, and grade information. The notebooks use `G3` (final grade, 0–20) as the regression target. Classification notebooks define pass as `G3 >= 10`. The dataset contains student demographic and lifestyle fields; review your institution's privacy and sharing requirements before publishing it.
 
-The notebook sequence follows the structure of [Aayush217's Chronos notebook project](https://github.com/Aayush217/chronos---Turbofan-Predictive-Maintenance-RUL-Prognostics), with data loading, targets, preprocessing, features, and evaluations adapted for student performance. These are adapted experiments, not a claim that the original notebooks were validated on this dataset.
-
 ## Notebooks
 
 1. `01_data_exploration.ipynb` — dataset structure and quality
